@@ -1,0 +1,17 @@
+{
+  "name": "UDPWallClock",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "UDPWallClock",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+/*******************************************************************************
+ *
+ * Copyright (c) 2015 Fraunhofer FOKUS, All rights reserved.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3.0 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * AUTHORS: Louay Bassbouss (louay.bassbouss@fokus.fraunhofer.de)
+ *
+ ******************************************************************************/
+-->
+<html>
+
+<head lang="en">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/cs-app.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <title>Companion Screen Cordova App</title>
+    <script type="text/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/vendor/dvbcss-clocks.js"></script>
+    <script type="text/javascript" src="js/vendor/dvbcss-protocols.js"></script>
+    <script type="text/javascript" src="jwplayer-8.5.6/jwplayer.js"></script>
+    <script>
+        jwplayer.key = "### PUT HERE YOUR JWPLAYER KEY ###";
+        window.CONFIG_LOCATION_URL = {
+            BROADBAND: "### PUT HERE THE LOCATION OF YOUR CONFIG FILE FOR BROADBAND ###",
+            BROADCAST: "### PUT HERE THE LOCATION OF YOUR CONFIG FILE FOR BROADCAST ###"
+        };
+        window.HBBTV_LOCATION_URL = "### PUT HERE YOUR HBBTV APP LOCATION URL ###";
+    </script>
+
+    <!--div> IMAAAAAC <-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+</head>
+
+<body class="select-conf-state">
+    <div class="config-block block">
+        <h1>Select config file</h1>
+        <select class="conf-selector-action">
+            <option>Select a config file...</option>
+            <option>BROADBAND</option>
+            <option>BROADCAST</option>
+        </select>
+    </div>
+    <div class="running-block">
+        <div id="header">
+            <div class="title">HbbTV CS Cordova Web App</div>
+            <button id="discoverTerminalsBtn" disabled="disabled">Discover HbbTV Terminals</button>
+        </div>
+
+        <ul id="terminals">
+            Discovered terminals will appear here!
+        </ul>
+        <div id="video">
+            Loading player...
+        </div>
+        <div class="info-fields-container">
+            <table class="info-fields">
+                <tbody>
+                
+                </tbody>          
+            </table>
+        </div>
+        <div id="logDiv">
+            <textarea id="log" disabled="true">Log console:</textarea>
+        </div>
+    </div>
+    <div id="copyRights"><a id="copyRightsLink">Copyright (c) 2015, Fraunhofer FOKUS, All rights reserved</a></div>
+    <script type="text/javascript" src="js/messageHelper.js"></script>
+    <script type="text/javascript" src="js/wallClock/Candidate.js"></script>
+    <script type="text/javascript" src="js/wallClock/CreateClientWC.js"></script>
+    <script type="text/javascript" src="js/wallClock/UdpAdaptor.js"></script>
+    <script type="text/javascript" src="js/wallClock/WallClockClientProtocol.js"></script>
+    <script type="text/javascript" src="js/wallClock/WallClockMessage.js"></script>
+    <script type="text/javascript" src="js/jwPlayerInit.js"></script>
+    <script type="text/javascript" src="js/cs-app.js"></script>
+</body>
+
+</html>

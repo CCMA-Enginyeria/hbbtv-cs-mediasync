@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cat.ccma.wallClock": {
+      "PACKAGE_NAME": "de.fhg.fokus.famium.hbbtv.helloapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "de.fhg.fokus.famium.hbbtv.helloapp"
+    },
+    "de.fhg.fokus.famium.hbbtv": {
+      "PACKAGE_NAME": "de.fhg.fokus.famium.hbbtv.helloapp"
+    }
+  },
+  "dependent_plugins": {}
+}

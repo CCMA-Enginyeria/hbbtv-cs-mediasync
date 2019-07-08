@@ -1,0 +1,32 @@
+body.select-conf-state .running-block {
+    display: none;
+}
+
+body.running-state .config-block {
+    display: none;
+}
+
+.block {
+    padding: 20px;
+}
+
+.info-fields-container {
+    position: absolute;
+    background-color: #DDDDDD;
+    top: 365px;
+    bottom: 20px;
+    left: 5px;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    height: 160px;
+}
+
+.info-fields {
+    width: 362px;
+}
+
+table.info-fields td {
+    border: 1px solid black;
+}

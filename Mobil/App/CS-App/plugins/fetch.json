@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "de.fhg.fokus.famium.hbbtv": {
+    "source": {
+      "type": "registry",
+      "id": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cat.ccma.wallClock": {
+    "source": {
+      "type": "local",
+      "path": "D:\\vm\\shared\\HbbTV\\bitbucketImAc\\cat.ccma.eng.rec.2018.imac-videosync-poc\\Mobil\\App\\IMAC-Broadcast\\node_modules\\UDPWallClock"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

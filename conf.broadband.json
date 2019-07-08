@@ -1,0 +1,5 @@
+{
+	"broadcast": false,
+   	"videoTVBroadband":"### PUT HERE URL OF THE VIDEO THAT WILL BE PLAYED ON TV ###",
+   	"videoCSBroadband":"### PUT HERE URL OF THE VIDEO THAT WILL BE PLAYED ON CS ###"
+}

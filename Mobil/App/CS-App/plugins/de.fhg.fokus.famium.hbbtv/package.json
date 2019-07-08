@@ -1,0 +1,62 @@
+{
+  "_from": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+  "_id": "cordova-plugin-hbbtv@0.0.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-hbbtv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+    "rawSpec": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+    "saveSpec": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+    "fetchSpec": "https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git#d0eab96795a233e4e73acbe126ab32c94ee3c4e3",
+  "_spec": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git",
+  "_where": "d:\\vm\\shared\\cat.ccma.eng.rec.2018.imac-videosync-poc\\Mobil\\App\\CS-App",
+  "author": {
+    "name": "Louay Bassbouss",
+    "email": "louay.bassbouss@fokus.fraunhofer.de",
+    "url": "https://www.fokus.fraunhofer.de/usr/bassbouss"
+  },
+  "bugs": {
+    "url": "https://github.com/fraunhoferfokus/cordova-plugin-hbbtv/issues",
+    "email": "louay.bassbouss@fokus.fraunhofer.de"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "de.fhg.fokus.famium.hbbtv",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "This Cordova HbbTV plugin implements the HbbTV 2.0 CS APIs for discovering HbbTV Terminals, launching HbbTV Applications on discovered Terminals and open App2App communication channels between the Cordova App (Companion App) and the launched HbbTV App using WebSockets",
+  "homepage": "https://www.fokus.fraunhofer.de/fame",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "hbbtv",
+    "hbbtv 2.0",
+    "cs",
+    "companion screen",
+    "dial",
+    "app2app",
+    "discovery",
+    "launch"
+  ],
+  "license": "LGPL-3.0",
+  "name": "cordova-plugin-hbbtv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fraunhoferfokus/cordova-plugin-hbbtv.git"
+  },
+  "version": "0.0.2"
+}

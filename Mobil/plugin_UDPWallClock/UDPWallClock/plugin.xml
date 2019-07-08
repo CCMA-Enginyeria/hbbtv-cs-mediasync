@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin 
+	id="cat.ccma.wallClock" 
+	version="1.0.0" 
+	xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>UDPWallClock</name>
+	<js-module name="UDPWallClock" src="www/UDPWallClock.js">
+		<clobbers target="cordova.plugins.UDPWallClock" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="UDPWallClock">
+				<param name="android-package" value="cat.ccma.wallClock.UDPWallClock" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"></config-file>
+		<source-file src="src/android/cat/ccma/wallClock/UDPWallClock.java" target-dir="src/cat/ccma/wallClock/" />
+	</platform>
+</plugin>
