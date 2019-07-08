@@ -1,6 +1,7 @@
-# ImAc
+# HbbTv <-> Companion Screen - MediaSync
 
-Project for the synchronization of HbbTV 2.0 video app with mobile app. This project is based on the application of [Franhoufer FOKUS] (https://github.com/fraunhoferfokus/cordova-plugin-hbbtv-helloapp) for the mobile app part and launching of HbbTV 2.0 app on television. The synchronization part is based on the specifications and libraries of [DVB-CSS] (https://www.dvb.org/standards/dvb_css).
+The aim of this project is to provide a prototype of a full process of Media Synchronization between an HbbTv 2.0.1 device with an Android application using DVB-CSS.
+This project is based on the application of [Franhoufer FOKUS] (https://github.com/fraunhoferfokus/cordova-plugin-hbbtv-helloapp).
 
 ### 1.Setting up the prototype
 
